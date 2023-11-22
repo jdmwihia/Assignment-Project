@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup page</title>
+    <link rel="stylesheet" href="Signup page.css" />
+  </head>
+  <body>
+    <div class="together"><h1>CREATE AN ACCOUNT</h1></div>
+    <form action="process signup.php" method="post">
+      <p>
+        <label class="input-fields" for="username">Username</label> <br />
+      </p>
+      <p>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+        />
+      </p>
+      <p>
+        <label class="input-fields" for="email">E-mail address</label> <br />
+      </p>
+      <p>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your e-mail address"
+          required
+        />
+      </p>
+      <p>
+        <label class="input-fields" for="password">Password</label> <br />
+      </p>
+      <p>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+      </p>
+      <p>
+        <label class="con-pass" for="password-confirmation">
+          Confirm password</label>
+      </p>
+      <p>
+        <input
+          type="password"
+          id="password-confirmation"
+          name="password-confirmation"
+          placeholder="Confirm your password"
+          required
+        />
+        <p class="login">Already have an account? <a href="Login page.html">Login</a></p>
+      </p>
+      <p>
+        <button type="sumbit" id="submit" name="submit">Sign up</button>
+      </p>
+    </form>
+  </body>
+</html>

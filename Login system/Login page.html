@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login system</title>
+    <link rel="stylesheet" href="Login page.css" />
+  </head>
+  <body>
+    <h1>LOGIN</h1>
+    <form action="process login.php" method="POST">
+      <div>
+        <label for="username">Username</label>
+      </div>
+      <div>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+      </div>
+      <div>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+      <div>
+        <button class="login-button" type="submit" id="submit" name="submit">
+          LOGIN
+        </button>
+      </div>
+      <p class="forgot-pass">
+        <a style="text-decoration: none" href="./Forgot password.html"
+          >Forgot your password?</a
+        >
+      </p>
+
+      <p class="no-account">
+        Don't have an account?
+        <span class="sign-up">
+          <a style="text-decoration: none" href="./Signup page.html"
+            >Sign up</a
+          ></span
+        >
+      </p>
+    </form>
+  </body>
+</html>

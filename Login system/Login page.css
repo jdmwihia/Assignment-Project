@@ -1,0 +1,84 @@
+
+h1{
+   margin: 0px;
+    padding: 10px;
+    background-color:rgb(52, 152, 219) ;
+    color: aliceblue;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+}
+div{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: block;
+}
+input{
+    width: 14%;
+    padding:8px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(148, 147, 147);
+    background-color: #f4f4f4;
+
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.forgot-pass{
+    font-size: 13px;
+    padding-left: 300px;
+}
+.forgot-pass:hover{
+    font-size:14px;
+    color:rgb(52, 152, 219) ; 
+    transition: all .1s;
+}
+.login-button{
+    color: white;
+    background-color: rgb(52, 152, 219);
+    border-radius: 5px;
+    border-style:solid ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    ;
+}
+.login-button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(52, 152, 219);
+    opacity: .8;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 6px ;
+    padding-bottom: 6px;
+    font-size: 14px;
+    transition: all 0.1s;
+}
+a{
+    color: black;
+}
+
+.sign-up:hover{
+    font-size: 17px;
+    transition:all 0.1s;
+    color:rgb(52, 152, 219) ; 
+
+}
+.no-account{
+    padding: 20px;
+}
+input:focus{
+    outline: none;
+}
